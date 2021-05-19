@@ -10,7 +10,7 @@ import smtplib
 
 print("Initializing Jarvis")
 
-MASTER = "Carry"
+MASTER = " Sir "
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
@@ -30,7 +30,7 @@ def wishMe():
     else:
         speak("Good Evening" + MASTER)
 
-    # speak("I am carry. How can i  help you ")
+        speak("I am halter. How can i  help you ")
 
 def takeCommand():
     r = sr.Recognizer()
